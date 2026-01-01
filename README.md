@@ -11,10 +11,10 @@ Digital signature: Skips signed binaries to avoid AV triggers
 Entropy levels: Flags packed or encrypted binaries
 Code caves: Finds executable regions of null bytes ideal for shell injection
 If all conditions match, the PE is marked as Injectable.
-
+```
 pip install pefile
 pip install lief
-
+```
   $ ```python3 PE_Injectable_checker.py```
 
 Enter folder path with EXE files: /path/to/exe/folder
