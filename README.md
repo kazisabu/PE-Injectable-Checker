@@ -1,4 +1,4 @@
-🛠️ PE Injectable Checker
+PE Injectable Checker
 PE Injectable Checker is a Python-based static scanner that identifies Windows PE (.exe) files which are likely suitable for shellcode injection or payload stubbing. It performs a non-invasive analysis to help red teamers, malware analysts, and researchers detect potential injection targets with:
 
 ❌ No digital signature
